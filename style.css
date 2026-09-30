@@ -28,10 +28,16 @@ body {
 
 .hero {
   background: linear-gradient(160deg, var(--primary) 0%, var(--primary-2) 100%);
-  padding: 90px 0 70px;
+  padding: 70px 0 70px;
   text-align: center;
   border-bottom: 4px solid var(--earth);
   color: #f7f9f4;
+}
+
+.hero .logo {
+  height: 84px;
+  width: auto;
+  margin-bottom: 18px;
 }
 
 .hero h1 {
